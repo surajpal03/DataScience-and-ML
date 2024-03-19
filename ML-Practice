@@ -9,11 +9,11 @@ EXAMPLE - We have Registered the speed of 13 Bikes, Now we are going to calculat
 
 speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
 
+The first thing you can do is to ADD all these number & divide them with 13,
+
+Or you can use Numpy.
 
 import numpy
-
 speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
-
 x = numpy.mean(speed)
-
 print(x)
