@@ -1,3 +1,19 @@
 Day-1 Machine Learning Practice with Explanation.
 <br>
 Author - Suraj Pal
+<br>
+Now we are going to start with some demo examples
+<br> SOURCE W3schools.com
+<br>
+EXAMPLE - We have Registered the speed of 13 Bikes, Now we are going to calculate their mean value.
+
+speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
+
+
+import numpy
+
+speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
+
+x = numpy.mean(speed)
+
+print(x)
